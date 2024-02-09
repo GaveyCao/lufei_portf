@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { Hero, Navbar, Works, Tech, SimplePage, About } from "./components";
+import { Hero, Navbar, Works, Contact, Portfolio01, About } from "./components";
 
 const App = () => {
   return (
@@ -11,8 +11,8 @@ const App = () => {
           <Navbar />
         </div>
         <Routes>
-          <Route path="/" element={<><Hero /><About /><Works /><Tech /></>} />
-          <Route path="/components/simplepage" element={<SimplePage />} />
+          <Route path="/" element={<><Hero /><About /><Works /><Contact /></>} />
+          <Route path="/components/Portfolio01" element={<Portfolio01 />} />
         </Routes>
       </div>
     </BrowserRouter>

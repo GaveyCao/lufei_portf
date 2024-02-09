@@ -8,7 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-import SimplePage from "./SimplePage";
+import Portfolio01 from "./Portfolio01";
 
 
 export {
@@ -25,5 +25,5 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  SimplePage,
+  Portfolio01,
 };
