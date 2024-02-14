@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const handleNavClick = (navId) => {
     // Check if we're already on the home page
-    if (window.location.pathname !== '/') {
+    if (window.location.pathname !== '/' && window.location.pathname !=='/lufei_portf/') {
       // Navigate home then scroll to the section
       navigate('/', { replace: true, state: { scrollTo: navId } });
     } else {
