@@ -1,10 +1,10 @@
 import React from 'react';
 import { SectionWrapper } from "../hoc";
-import picture1 from '../assets/portfolios/iPhone 13 & 14 - 19.png';
+import pic1 from '../assets/portfolios/Pic1_blr.png';
 
 // Mock portfolio images
 const portfolioImages = [
-  { src: picture1, alt: 'Description of Image 1' },
+  { src: pic1, alt: 'Description of Image 1' },
   // Add more images as needed
 ];
 
@@ -15,7 +15,7 @@ const Portfolio01 = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-4">
         {portfolioImages.map((img, index) => (
           <div key={index} className="overflow-hidden rounded-lg shadow-lg">
-            <img src={img.src} alt={img.alt} className="w-full h-full object-cover object-center" />
+            <img loading="lazy" src={img.src} alt={img.alt} className="w-full h-full object-cover object-center" />
           </div>
         ))}
       </div>
