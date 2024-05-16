@@ -39,7 +39,7 @@ const projects = [
     image: denim,
   },
   {
-    name: "Sonic Gril Echoes App",
+    name: "Echoes Podcast Website",
     description: "A minimalist-designed podcast platform that simplifies navigation and enhances user engagement.",
     tags: [
       {
