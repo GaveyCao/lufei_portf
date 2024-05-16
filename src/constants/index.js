@@ -39,18 +39,19 @@ const projects = [
     image: denim,
   },
   {
-    name: "Portfolio02",
+    name: "Sonic Gril Echoes App",
+    description: "A minimalist-designed podcast platform that simplifies navigation and enhances user engagement.",
     tags: [
       {
-        name: "react",
+        name: "Figma",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Sketch",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Adobe XD",
         color: "pink-text-gradient",
       },
     ],

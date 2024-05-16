@@ -1,10 +1,10 @@
 import React from 'react';
 import { SectionWrapper } from "../hoc";
-import pic1 from '../assets/portfolios/Pic1_blr.png';
+import pic1 from '../assets/portfolios/Pic1-1.png';
 
 // Mock portfolio images
 const portfolioImages = [
-  { src: pic1, alt: 'Description of Image 1' },
+  { src: pic1, alt: 'Portfoilo1' },
   // Add more images as needed
 ];
 
