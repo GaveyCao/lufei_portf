@@ -15,7 +15,7 @@ const Contact = () => {
         </a>
       </div>
       <p className="text-center text-sm">
-        Powered by Chang Li / <a href="mailto:lichangus@outlook.com">lichangus@outlook.com</a> / (415) 640-2051
+        Powered by Lufei Wang / <a href="mailto:luffywoong@gmail.com">luffywoong@gmail.com</a> / (650) 643-8119
       </p>
     </div>
   );
